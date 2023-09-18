@@ -150,3 +150,68 @@ button:hover{
         
     
 }
+
+@media screen and (max-width:350px){
+    .bg h1{
+        font-size: 20px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    textarea{
+        width:275px;
+        height:200px;
+        background: #f5e8ba;
+        color:black;
+        border: 0;
+        border-radius: 10px;
+    }
+    select{
+        flex:1;
+        height:50px;
+        width:150px;
+        outline:0;
+        border:0;
+        border-radius: 35px;
+    }
+    textarea::placeholder{
+        font-size: 16px;
+        color:black;
+    }
+    
+        
+    
+}
+
+@media screen and (max-width:375px){
+    .bg h1{
+        font-size: 20px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    textarea{
+        width:275px;
+        height:200px;
+        background: #f5e8ba;
+        color:black;
+        border: 0;
+        border-radius: 10px;
+    }
+    select{
+        flex:1;
+        height:50px;
+        width:75px;
+        outline:0;
+        border:0;
+        border-radius: 35px;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    textarea::placeholder{
+        font-size: 16px;
+        color:black;
+    }
+   
+}      
+    
